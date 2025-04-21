@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AN Fracture & Physiotherapy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 class="neon-text">एएन फ्रैक्चर और फिजियोथेरेपी क्लिनिक</h1>
+    <p class="subtitle">स्वस्थ शरीर, सशक्त जीवन</p>
+  </header>
+
+  <section class="doctors">
+    <h2>हमारे डॉक्टर</h2>
+    <ul>
+      <li><strong>डॉ. अंकित सिंह</strong> — BSE, DPT, BPT (ऑर्थो)</li>
+      <li><strong>डॉ. अनुराग यादव</strong> — फिजियोथेरेपिस्ट</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>संपर्क करें</h2>
+    <p><strong>मोबाइल:</strong> 7317770678, 7905563426</p>
+    <p><strong>स्थान:</strong> धानियामऊ (नहर के पास), जौनपुर</p>
+  </section>
+
+  <section class="form-section">
+    <h2>अपॉइंटमेंट बुक करें</h2>
+    <form id="appointment-form">
+      <input type="text" name="user_name" placeholder="आपका नाम" required />
+      <input type="tel" name="user_phone" placeholder="मोबाइल नंबर" required />
+      <textarea name="message" placeholder="संदेश / समस्या लिखें..." required></textarea>
+      <button type="submit">भेजें</button>
+    </form>
+    <p id="form-msg"></p>
+  </section>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
